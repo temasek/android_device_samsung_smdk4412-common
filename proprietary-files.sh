@@ -30,7 +30,6 @@ adb pull /system/bin/bcm4334_murata.hcd ../../../vendor/$MANUFACTURER/$DEVICE/pr
 adb pull /system/bin/bcm4334_semcosh.hcd ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/bin/bcm4334_semcosh.hcd
 adb pull /system/bin/bintvoutservice ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/bin/bintvoutservice
 adb pull /system/bin/gps.cer ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/bin/gps.cer
-adb pull /system/bin/gpsd ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/bin/gpsd
 adb pull /system/bin/lpmkey ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/bin/lpmkey
 adb pull /system/bin/playlpm ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/bin/playlpm
 adb pull /system/cameradata/datapattern_420sp.yuv ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/cameradata/datapattern_420sp.yuv
@@ -51,7 +50,6 @@ adb pull /system/etc/wifi/nvram_net.txt_semcosh ../../../vendor/$MANUFACTURER/$D
 adb pull /system/lib/egl/libEGL_mali.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/egl/libEGL_mali.so
 adb pull /system/lib/egl/libGLESv1_CM_mali.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/egl/libGLESv1_CM_mali.so
 adb pull /system/lib/egl/libGLESv2_mali.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/egl/libGLESv2_mali.so
-adb pull /system/lib/hw/gps.exynos4.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/hw/gps.exynos4.so
 adb pull /system/lib/hw/gralloc.smdk4x12.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/hw/gralloc.smdk4x12.so
 adb pull /system/lib/hw/hwcomposer.smdk4x12.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/hw/hwcomposer.smdk4x12.so
 adb pull /system/lib/hw/lights.exynos4.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/lib/hw/lights.exynos4.so
@@ -125,7 +123,6 @@ adb pull /system/usr/keylayout/gpio-keys.kl ../../../vendor/$MANUFACTURER/$DEVIC
 adb pull /system/usr/keylayout/qwerty.kl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/usr/keylayout/qwerty.kl
 adb pull /system/usr/keylayout/sii9234_rcp.kl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/usr/keylayout/sii9234_rcp.kl
 adb pull /system/vendor/firmware/fimc_is_fw.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/vendor/firmware/fimc_is_fw.bin
-adb pull /system/vendor/firmware/libpn544_fw.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/vendor/firmware/libpn544_fw.so
 adb pull /system/vendor/firmware/mfc_fw.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/vendor/firmware/mfc_fw.bin
 adb pull /system/vendor/firmware/setfile.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/system/vendor/firmware/setfile.bin
 
@@ -162,7 +159,6 @@ PRODUCT_COPY_FILES += \\
     \$(LOCAL_PATH)/proprietary/system/bin/bcm4334_semcosh.hcd:system/bin/bcm4334_semcosh.hcd \\
     \$(LOCAL_PATH)/proprietary/system/bin/bintvoutservice:system/bin/bintvoutservice \\
     \$(LOCAL_PATH)/proprietary/system/bin/gps.cer:system/bin/gps.cer \\
-    \$(LOCAL_PATH)/proprietary/system/bin/gpsd:system/bin/gpsd \\
     \$(LOCAL_PATH)/proprietary/system/bin/lpmkey:system/bin/lpmkey \\
     \$(LOCAL_PATH)/proprietary/system/bin/playlpm:system/bin/playlpm
 
@@ -193,7 +189,6 @@ PRODUCT_COPY_FILES += \\
     \$(LOCAL_PATH)/proprietary/system/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so
 
 PRODUCT_COPY_FILES += \\
-    \$(LOCAL_PATH)/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \\
     \$(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.smdk4x12.so:system/lib/hw/gralloc.smdk4x12.so \\
     \$(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.smdk4x12.so:system/lib/hw/hwcomposer.smdk4x12.so
 
@@ -278,7 +273,6 @@ PRODUCT_COPY_FILES += \\
 
 PRODUCT_COPY_FILES += \\
     \$(LOCAL_PATH)/proprietary/system/vendor/firmware/fimc_is_fw.bin:system/vendor/firmware/fimc_is_fw.bin \\
-    \$(LOCAL_PATH)/proprietary/system/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \\
     \$(LOCAL_PATH)/proprietary/system/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \\
     \$(LOCAL_PATH)/proprietary/system/vendor/firmware/setfile.bin:system/vendor/firmware/setfile.bin
 
