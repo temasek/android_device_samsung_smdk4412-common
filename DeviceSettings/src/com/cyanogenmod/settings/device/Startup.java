@@ -27,6 +27,7 @@ public class Startup extends BroadcastReceiver {
         AudioFragmentActivity.restore(context);
         AudioOut.restore(context);
         CABC.restore(context);
+        HapticFragmentActivity.restore(context);
         Hspa.restore(context);
         IncallAudio.restore(context);
         LedFade.restore(context);
