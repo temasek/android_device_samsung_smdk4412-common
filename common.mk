@@ -48,6 +48,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/fstab.smdk4412:system/etc/fstab.smdk4412
 
+# Netflix hack
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/configs/98netflix:system/etc/init.d/98netflix
+
 # Bluetooth configuration files
 PRODUCT_COPY_FILES += \
     system/bluetooth/data/main.le.conf:system/etc/bluetooth/main.conf
