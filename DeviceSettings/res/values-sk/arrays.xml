@@ -15,14 +15,14 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="mdnie_scenario_entries">
-        <item>CyanogenMod (Default)</item>
+        <item>CyanogenMod (pôvodné)</item>
         <item>UI</item>
         <item>Video</item>
-        <item>Video Warm</item>
-        <item>Video Cold</item>
-        <item>Camera</item>
-        <item>Navigation</item>
-        <item>Gallery</item>
+        <item>Video teplé</item>
+        <item>Video studené</item>
+        <item>Fotoaparát</item>
+        <item>Navigácia</item>
+        <item>Galéria</item>
         <item>VT</item>
     </string-array>
 
@@ -39,10 +39,10 @@
     </string-array>
 
     <string-array name="mdnie_mode_entries">
-        <item>Dynamic (Default)</item>
-        <item>Standard</item>
-        <item>Natural</item>
-        <item>Movie</item>
+        <item>Dynamické (pôvodné)</item>
+        <item>Štandardné</item>
+        <item>Prirodzené</item>
+        <item>Film</item>
     </string-array>
 
     <string-array name="mdnie_mode_entries_values" translatable="false">
@@ -53,8 +53,8 @@
     </string-array>
 
     <string-array name="mdnie_negative_entries">
-        <item>Normal</item>
-        <item>Inverted</item>
+        <item>Normálne</item>
+        <item>Invertované</item>
     </string-array>
 
     <string-array name="mdnie_negative_entries_values" translatable="false">
@@ -64,12 +64,12 @@
 
     <string-array name="touchkey_timeout_entries">
         <item>Never</item>
-        <item>1 second</item>
-        <item>2 seconds</item>
-        <item>3 seconds (Default)</item>
-        <item>4 seconds</item>
-        <item>5 seconds</item>
-        <item>6 seconds</item>
+        <item>1 sekunda</item>
+        <item>2 sekundy</item>
+        <item>3 sekundy (pôvodné)</item>
+        <item>4 sekundy</item>
+        <item>5 sekúnd</item>
+        <item>6 sekúnd</item>
     </string-array>
 
     <string-array name="touchkey_timeout_entries_values" translatable="false">
@@ -83,8 +83,8 @@
     </string-array>
 
     <string-array name="led_fade_entries">
-        <item>Blinking</item>
-        <item>Fading</item>
+        <item>Blikanie</item>
+        <item>Stmievanie</item>
     </string-array>
 
     <string-array name="led_fade_entries_values" translatable="false">
@@ -93,8 +93,8 @@
     </string-array>
 
     <string-array name="hspa_entries">
-        <item>UMTS Only</item>
-        <item>HSDPA Only</item>
+        <item>UMTS</item>
+        <item>HSDPA</item>
         <item>HSDPA + HSUPA</item>
     </string-array>
 
