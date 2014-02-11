@@ -52,7 +52,7 @@
 
     <!-- VibratorTuning -->
     <string name="vibrator_title">Vibrovanie</string>
-    <string name="vibrator_tuning_title">Sila vybrovania</string>
+    <string name="vibrator_tuning_title">Sila vibrovania</string>
     <string name="vibrator_tuning_summary_head">Nastavte silu spätnej vibračnej odozvy</string>
     <string name="vibrator_warning">Hodnoty vyššie ako %1$d sa nedoporučujú!</string>
 
